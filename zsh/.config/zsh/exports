@@ -1,0 +1,24 @@
+# export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=6"
+# export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=cyan,bold,underline"
+export EDITOR=nvim
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+export PATH="/home/lalith/.yarn/bin:$PATH"
+export PATH="/home/lalith/.local/bin:$PATH"
+export PATH=$PATH:/usr/local/go/bin
+export PATH="/home/lalith/.local/bin/dwmscripts:$PATH"
+export GOPATH="/home/lalith/go"
+export MYVIMRC="~/.config/nvim/init.vim"
+export VISUAL=nvim
+export PATH="$PATH:$HOME/.config/composer/vendor/bin"
+export ANDROID_SDK_ROOT="$HOME/Android/Sdk"
+export PATH=$HOME/.config/nvim/utils/bin:$PATH
+export PATH="$HOME/.rbenv/shims:$PATH"
+export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH="$HOME/go/bin:$PATH"
+export PATH="$HOME/.rbenv/bin:$PATH"
+
+export CUDA_ROOT="/opt/cuda/bin"
+export LANGUAGE="en_US.UTF-8"
+export LC_ALL="en_US.UTF-8"
+
+export ZVM_VI_INSERT_ESCAPE_BINDKEY=jk

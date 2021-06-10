@@ -1,0 +1,18 @@
+sudo systemctl start postgresql.service
+
+docker container rm -f reelo-redis
+docker container run -p 6379:6379 --name reelo-redis -d redis
+
+tmux send-keys "cd ~/code/reelo/reelo-dev && POSTGRES_USERNAME=reelo bundle exec clockwork config/clock.rb" ENTER
+tmux split-window -h
+tmux send-keys "cd ~/code/reelo/reelo-dev && POSTGRES_USERNAME=reelo bundle exec sidekiq -C config/sidekiq.yml" ENTER
+tmux rename-window 'sidekiq'
+
+tmux new-window
+tmux send-keys "cd ~/code/reelo/reelo-dev && RAILS_ENV=development POSTGRES_USERNAME=reelo bundle exec puma -p ${PORT:-3000}" ENTER
+tmux split-window -h
+tmux send-keys "cd ~/code/reelo/reelo-dev && tail -f log/development.log" ENTER
+tmux rename-window 'log'
+
+tmux new-window
+tmux send-keys "cd ~/code/reelo/reelo-dev" ENTER C-l
