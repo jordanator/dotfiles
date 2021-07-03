@@ -66,3 +66,5 @@ alias glog="git log --graph --decorate --all"
 alias gb="git branch"
 alias gba="git branch -a"
 alias gbd="git branch -d"
+
+alias v="ag -g '' | fzf --cycle | xargs -r $EDITOR"
