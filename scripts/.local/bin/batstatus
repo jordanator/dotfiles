@@ -1,0 +1,5 @@
+#!/bin/sh
+
+$status=cat /sys/class/power_supply/BAT1/capacity
+
+notify-send -u normal "Battery Info: $status"

@@ -1,1 +1,2 @@
+xmodmap ~/.Xmodmap
 exec dwm
