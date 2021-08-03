@@ -16,19 +16,17 @@
 #     ./brightness.sh 200
 #     ./brightness.sh -200
 
-old=`cat /sys/class/backlight/intel_backlight/brightness`
-max=`cat /sys/class/backlight/intel_backlight/max_brightness`
-new=`expr $old + $1`
+old=$(cat /sys/class/backlight/intel_backlight/brightness)
+max=$(cat /sys/class/backlight/intel_backlight/max_brightness)
+new=$(expr $old + $1)
 
 # make sure not to go below 0
-if [ $new -lt 0 ]
-then
+if [ $new -lt 0 ]; then
 	new=0
 fi
 
 # make sure not to go over the maximum brightness
-if [ $new -gt $max ]
-then
+if [ $new -gt $max ]; then
 	new=$max
 fi
 

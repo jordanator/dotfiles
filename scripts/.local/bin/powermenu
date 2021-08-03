@@ -1,15 +1,15 @@
 #!/bin/sh
 
 case "$(echo "Shutdown\nReboot\nLogout\nSuspend\nLock" | dmenu -c \
-    -nb "${COLOR_BACKGROUND:-#151515}" \
-    -nf "${COLOR_DEFAULT:-#aaaaaa}" \
-    -sf "${COLOR_HIGHLIGHT:-#589cc5}" \
-    -sb "#1a1a1a" \
-    -b -p \
-    "Power:" -l 5 -y 600 -x 720 -z 500)" in
-        Shutdown) exec systemctl poweroff;;
-        Reboot) exec systemctl reboot;;
-        Logout) kill -HUP $XDG_SESSION_PID;;
-        Suspend) exec systemctl suspend;;
-        Lock) exec systemctl --user start lock.target;;
+	-nb "${COLOR_BACKGROUND:-#151515}" \
+	-nf "${COLOR_DEFAULT:-#aaaaaa}" \
+	-sf "${COLOR_HIGHLIGHT:-#589cc5}" \
+	-sb "#1a1a1a" \
+	-b -p \
+	"Power:" -l 5 -y 600 -x 720 -z 500)" in
+Shutdown) exec systemctl poweroff ;;
+Reboot) exec systemctl reboot ;;
+Logout) kill -HUP $XDG_SESSION_PID ;;
+Suspend) exec systemctl suspend ;;
+Lock) exec systemctl --user start lock.target ;;
 esac
