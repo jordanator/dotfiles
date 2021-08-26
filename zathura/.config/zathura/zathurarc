@@ -54,3 +54,7 @@ set recolor-darkcolor           "#f8f8f2" # Foreground
 #
 set adjust-open width
 set recolor true
+
+# Scroll
+map u scroll half-up
+map d scroll half-down
