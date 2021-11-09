@@ -46,6 +46,6 @@ compinit
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 eval "$(fnm env)"
-eval "$(rbenv init -)"
+#eval "$(rbenv init -)"
 
 # source "$ZDOTDIR/plugins/powerlevel10k/powerlevel10k.zsh-theme"

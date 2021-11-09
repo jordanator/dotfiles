@@ -1,6 +1,6 @@
 #!/bin/sh
     
-case "$(echo -e "Shutdown\nRestart\nLogout\nSuspend\nLock" | dmenu -c \
+case "$(echo "Shutdown\nReboot\nLogout\nSuspend\nLock" | dmenu -c \
     -nb "${COLOR_BACKGROUND:-#151515}" \
     -nf "${COLOR_DEFAULT:-#aaaaaa}" \
     -sf "${COLOR_HIGHLIGHT:-#589cc5}" \
@@ -8,7 +8,7 @@ case "$(echo -e "Shutdown\nRestart\nLogout\nSuspend\nLock" | dmenu -c \
     -b -p \
     "Power:" -l 5)" in
         Shutdown) exec systemctl poweroff;;
-        Restart) exec systemctl reboot;;
+        Reboot) exec systemctl reboot;;
         Logout) kill -HUP $XDG_SESSION_PID;;
         Suspend) exec systemctl suspend;;
         Lock) exec systemctl --user start lock.target;;
