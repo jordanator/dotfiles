@@ -1,0 +1,7 @@
+#!/bin/sh
+
+pacman -Qe ~/.dotfiles/programs/pacman.list
+
+git add ~/.dotfiles/programs/pacman.list
+git commit -m "Update pacman list"
+git push
