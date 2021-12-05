@@ -8,7 +8,7 @@ nm-applet --indicator &
 blueman-applet &
 
 # Optimus Manager
-optimus-manager-qt &
+# optimus-manager-qt &
 
 # Auto mount external devices
 udiskie &
