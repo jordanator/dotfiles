@@ -32,7 +32,9 @@ zsh_add_plugin "zsh-users/zsh-syntax-highlighting"
 zsh_add_plugin "jeffreytse/zsh-vi-mode"
 zsh_add_plugin "agkozak/zsh-z"
 # zsh_add_plugin "romkatv/powerlevel10k"
-
+#
+# Key-bindings
+bindkey -s '^o' 'ranger^M'
 
 # # End of lines configured by zsh-newuser-install
 # # The following lines were added by compinstall

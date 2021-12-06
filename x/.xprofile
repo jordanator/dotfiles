@@ -62,7 +62,7 @@ redshift-gtk -l 17.4545951:78.5527655 &
 
 export LANG=en_US.UTF-8
 
-export EDITOR="nvim"
+export EDITOR="lvim"
 export TERMINAL="alacritty"
 export BROWSER="brave"
 
