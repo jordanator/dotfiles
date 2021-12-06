@@ -45,6 +45,7 @@ alias sk="screenkey -s small --scr 1"
 alias skk="killall screenkey"
 alias dotgit="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
 alias nm="neomutt"
+alias k="kubectl"
 
 alias shfmt="docker run --rm -v $PWD:/mnt -w /mnt shfmt:latest"
 alias enhance='function ne() { docker run --rm -v "$(pwd)/`dirname ${@:$#}`":/ne/input -it alexjc/neural-enhance ${@:1:$#-1} "input/`basename ${@:$#}`"; }; ne'
