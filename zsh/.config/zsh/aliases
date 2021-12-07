@@ -7,14 +7,17 @@ alias art="php artisan"
 alias weather="curl wttr.in/Hyderabad"
 alias autoremove="yay -Yc"
 alias cmyip="curl eth0.me"
+alias monitors="xrandr -q | grep \" connected\" | cut -d ' ' -f1 | tr -d '\n'"
+
+alias nm="neomutt"
 alias ls="exa --icons --color=always --group-directories-first"
 alias ll="exa --icons -l --color=always --group-directories-first"
-alias l="ll"
 alias lg="lazygit"
-alias y="yay -Slq | fzf -m --preview 'cat <(yay -Si {1}) <(yay -Fl {1} | awk \"{print \$2}\")' | xargs -ro  yay -S"
-alias monitors="xrandr -q | grep \" connected\" | cut -d ' ' -f1 | tr -d '\n'"
-alias nm="neomutt"
+
 alias k="kubectl"
+alias f="ag -g '' | fzf --cycle | xargs -r $EDITOR"
+alias y="yay -Slq | fzf -m --preview 'cat <(yay -Si {1}) <(yay -Fl {1} | awk \"{print \$2}\")' | xargs -ro  yay -S"
+alias l="ll"
 
 # Git aliases
 alias gst="git status"
@@ -31,4 +34,3 @@ alias gb="git branch"
 alias gba="git branch -a"
 alias gbd="git branch -d"
 
-alias f="ag -g '' | fzf --cycle | xargs -r $EDITOR"

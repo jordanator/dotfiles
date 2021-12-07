@@ -23,6 +23,7 @@ duf
 dunst
 efibootmgr
 exa
+fast
 feh
 firefox
 flameshot
@@ -100,6 +101,7 @@ xorg-xinit
 xorg-xrandr
 xorg-xsetroot
 yay
+yt-dlp
 ytfzf
 zathura
 zathura-pdf-mupdf
