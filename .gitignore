@@ -5,6 +5,7 @@ zsh/.config/zsh/.zcompdump
 copyq/.config/copyq/*.dat
 copyq/.config/copyq/copyq.lock
 copyq/.config/copyq/copyq_tabs.ini
+copyq/.config/copyq/copyq_geometry.ini
 
 ranger/.config/ranger/plugins/__pycache__/__init__.cpython-39.opt-1.pyc
 ranger/.config/ranger/plugins/ranger_devicons/__pycache__/__init__.cpython-39.opt-1.pyc
