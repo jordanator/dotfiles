@@ -45,6 +45,7 @@ lightdm-webkit2-theme-glorious
 linux
 linux-firmware
 lsd
+man-db
 mongodb-compass
 mpv
 msi-perkeyrgb
@@ -53,8 +54,6 @@ ncdu
 network-manager-applet
 networkmanager
 networkmanager-openvpn
-noto-fonts
-noto-fonts-emoji
 nvidia
 nvidia-settings
 nvtop
@@ -72,6 +71,7 @@ python-pip
 qbittorrent
 ranger
 redshift
+rofi
 rsync
 screenkey
 shfmt
@@ -87,6 +87,8 @@ teams
 the_silver_searcher
 tmux
 tor-browser
+ttf-jetbrains-mono
+ttf-material-design-icons
 udiskie
 ueberzug
 unzip

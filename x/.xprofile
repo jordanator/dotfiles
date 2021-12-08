@@ -1,5 +1,6 @@
 # Start DWM Bar
-/home/lalith/.local/src/dwm-bar/dwm_bar.sh &
+# /home/lalith/.local/src/dwm-bar/dwm_bar.sh &
+/home/lalith/.dwm/bar/bar.sh &
 
 # nm-applet
 nm-applet --indicator &
