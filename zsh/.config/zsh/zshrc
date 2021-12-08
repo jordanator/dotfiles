@@ -44,8 +44,11 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+# Docker compose
+zsh_add_file "completions/docker-compose"
+
 # Kubernetes
-zsh_add_file "kube"
+zsh_add_file "completions/kube"
 compdef __start_kubectl k
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
