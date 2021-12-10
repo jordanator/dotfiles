@@ -81,7 +81,8 @@ export ZDOTDIR=$HOME/.config/zsh
 # setxkbmap -option caps:escape
 
 # load Xresources
-xrdb ~/.Xresources
+# xrdb ~/.Xresources
+xrdb merge ~/.Xresources
 
 # Tools
 # carbon-now-cli -> code screenshots
