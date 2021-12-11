@@ -64,7 +64,7 @@ redshift-gtk -l 17.4545951:78.5527655 &
 export LANG=en_US.UTF-8
 
 export EDITOR="lvim"
-export TERMINAL="alacritty"
+export TERMINAL="st"
 export BROWSER="brave"
 
 export PATH=$PATH:~/.local/bin
