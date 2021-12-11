@@ -61,6 +61,9 @@ redshift-gtk -l 17.4545951:78.5527655 &
 # Syncthing
 # syncthing &
 
+# Spotify
+spotify-tray &
+
 export LANG=en_US.UTF-8
 
 export EDITOR="lvim"
