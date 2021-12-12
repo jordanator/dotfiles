@@ -1,0 +1,5 @@
+#!/bin/sh
+
+connection=$(nmcli connection show | grep 'vpn' | awk '{print $1}' | dmenu -c -l 10 -p "VPN: ")
+
+nmcli connection up $connection
