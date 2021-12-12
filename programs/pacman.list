@@ -106,10 +106,10 @@ vim
 wget
 xbanish
 xclip
-xf86-input-synaptics
 xorg-server
 xorg-xev
 xorg-xinit
+xorg-xinput
 xorg-xrandr
 xorg-xsetroot
 yay
