@@ -62,7 +62,7 @@ redshift-gtk -l 17.4545951:78.5527655 &
 # syncthing &
 
 # Spotify
-spotify-tray &
+# spotify-tray &
 
 export LANG=en_US.UTF-8
 
