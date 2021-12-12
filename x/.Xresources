@@ -8,11 +8,11 @@ Xft.rgba:	rgb
 Xft.lcdfilter:	lcddefault
 
 ! transparency ( 0.1 to 0.9 values)
-st.alpha: 0.8 
+st.alpha: 0.9
 
 ! inner padding
 st.borderpx:          15
-st.font:         OperatorMonoLig:style:medium:pixelsize=15
+st.font:         OperatorMonoLig:style:medium:pixelsize=18
 
 !! Colors
 
