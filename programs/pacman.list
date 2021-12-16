@@ -1,5 +1,6 @@
 acpilight
 alacritty
+alsa-utils
 arc-gtk-theme
 atool
 base
@@ -9,7 +10,9 @@ blueman
 bluez
 bluez-utils
 brave-bin
+btrfs-progs
 checkbashisms
+checkupdates+aur
 cmatrix
 copyq
 cronie
@@ -18,12 +21,14 @@ dialog
 docker
 docker-compose
 docker-machine
+dosfstools
 duf
 dunst
 efibootmgr
 exa
 fast
 feh
+firefox
 flameshot
 fnm-bin
 fzf
@@ -32,12 +37,14 @@ genact
 git
 google-chrome
 grub
+grub-btrfs
 gwenview
 hollywood
 htop
 imlib2
 intel-ucode
 lazygit
+libxft-bgra-git
 lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
@@ -45,11 +52,11 @@ lightdm-webkit2-greeter
 lightdm-webkit2-theme-glorious
 linux
 linux-firmware
-lsd
-man-db
+linux-headers
 mongodb-compass
 mpv
 msi-perkeyrgb
+mtools
 mugshot
 ncdu
 neofetch
@@ -60,10 +67,11 @@ noto-fonts
 noto-fonts-emoji
 nvidia
 nvidia-settings
+nvidia-utils
 nvtop
-opendoas
 openvpn
 optimus-manager
+os-prober
 pam-gnupg
 papirus-icon-theme
 pass
@@ -71,6 +79,7 @@ pass-otp
 picom-ibhagwan-git
 plymouth
 plymouth-theme-arch-charge-big
+prettier
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
@@ -83,7 +92,6 @@ rsync
 screenkey
 shfmt
 simple-mtpfs
-skippy-xd-git
 sl
 spotify
 spotify-tray-git
@@ -94,7 +102,6 @@ syncthing
 teams
 the_silver_searcher
 tldr
-tmux
 tor-browser
 ttf-jetbrains-mono
 ttf-material-design-icons
@@ -104,12 +111,10 @@ unzip
 usbutils
 vim
 wget
+wpa_supplicant
 xbanish
 xclip
-xorg-server
-xorg-xev
 xorg-xinit
-xorg-xinput
 xorg-xrandr
 xorg-xsetroot
 yay
@@ -118,5 +123,4 @@ ytfzf
 zathura
 zathura-pdf-mupdf
 zoom
-zram-generator
 zsh
