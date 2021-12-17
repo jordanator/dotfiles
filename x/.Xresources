@@ -11,7 +11,7 @@ Xft.lcdfilter:	lcddefault
 st.alpha: 0.8
 
 ! inner padding
-st.borderpx:          6
+st.borderpx:          4
 st.font:         OperatorMonoLig:style:medium:pixelsize=18
 
 !! Colors
