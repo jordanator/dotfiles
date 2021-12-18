@@ -1,0 +1,10 @@
+#!/bin/sh
+
+D=$(date +%u)
+H=$(date +%k)
+
+if [ $D -ge 1 -a $D -le 5 ]; then
+  if [ $H -ge 10 -a $H -le 19 ]; then
+    teams &
+  fi
+fi
