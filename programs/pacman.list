@@ -31,6 +31,7 @@ feh
 firefox
 flameshot
 fnm-bin
+fortune-mod
 fzf
 gdb
 genact
@@ -44,6 +45,7 @@ htop
 imlib2
 intel-ucode
 lazygit
+libvdpau-va-gl
 libxft-bgra-git
 lightdm
 lightdm-gtk-greeter
@@ -117,10 +119,12 @@ xclip
 xorg-xinit
 xorg-xrandr
 xorg-xsetroot
+xwinwrap-git
 yay
 yt-dlp
 ytfzf
 zathura
 zathura-pdf-mupdf
+zbar
 zoom
 zsh

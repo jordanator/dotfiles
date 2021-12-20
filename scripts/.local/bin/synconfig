@@ -1,4 +1,0 @@
-#!/bin/sh
-
-rsync -avzL --progress -e "ssh -i ~/.ssh/nc.pem" ~/Pictures/wallpapers/ ubuntu@3.109.155.170:/home/ubuntu/backup/wallpapers
-rsync -avzL --progress -e "ssh -i ~/.ssh/nc.pem" ~/.config/zsh/.histfile ubuntu@3.109.155.170:/home/ubuntu/backup/zsh_history

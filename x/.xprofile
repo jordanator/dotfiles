@@ -43,9 +43,6 @@ flameshot &
 # Open Slack
 # slack &
 
-# teams
-startteams
-
 # Element
 # element-desktop &
 
@@ -79,6 +76,12 @@ export XDG_DATA_HOME=$HOME/.local/share
 
 # zsh config dir
 export ZDOTDIR=$HOME/.config/zsh
+
+# teams
+startteams &
+
+# video wallpaper
+videobg &
 
 # remap caps to escape
 # setxkbmap -option caps:escape
