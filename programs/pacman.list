@@ -2,6 +2,7 @@ acpilight
 alacritty
 alsa-utils
 arc-gtk-theme
+arc-icon-theme
 atool
 base
 bat
@@ -16,6 +17,7 @@ checkupdates+aur
 cmatrix
 copyq
 cronie
+ctop
 dash
 dialog
 docker
@@ -27,6 +29,7 @@ dunst
 efibootmgr
 exa
 fast
+fd
 feh
 firefox
 flameshot
@@ -36,6 +39,8 @@ fzf
 gdb
 genact
 git
+gnome-icon-theme
+gnome-icon-theme-extras
 google-chrome
 grub
 grub-btrfs
@@ -62,9 +67,11 @@ mtools
 mugshot
 ncdu
 neofetch
+neovide
 network-manager-applet
 networkmanager
 networkmanager-openvpn
+nitrogen
 noto-fonts
 noto-fonts-emoji
 nvidia
@@ -112,6 +119,7 @@ ueberzug
 unzip
 usbutils
 vim
+virtualbox
 wget
 wpa_supplicant
 xbanish
