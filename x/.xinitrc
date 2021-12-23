@@ -1,5 +1,3 @@
 xmodmap ~/.Xmodmap
 
-#exec ~/.local/bin/startdwm
-
-exec dwm
+exec ~/.dwm/autostart
