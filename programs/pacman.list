@@ -2,7 +2,6 @@ acpilight
 alacritty
 alsa-utils
 arc-gtk-theme
-arc-icon-theme
 atool
 base
 bat
@@ -11,7 +10,6 @@ blueman
 bluez
 bluez-utils
 brave-bin
-btrfs-progs
 checkbashisms
 checkupdates+aur
 cmatrix
@@ -41,10 +39,7 @@ genact
 git
 gnome-icon-theme
 gnome-icon-theme-extras
-google-chrome
 grub
-grub-btrfs
-gwenview
 hollywood
 htop
 imlib2
@@ -59,7 +54,7 @@ lightdm-webkit2-greeter
 lightdm-webkit2-theme-glorious
 linux
 linux-firmware
-linux-headers
+man-pages
 mongodb-compass
 mpv
 msi-perkeyrgb
@@ -67,17 +62,16 @@ mtools
 mugshot
 ncdu
 neofetch
-neovide
 network-manager-applet
 networkmanager
 networkmanager-openvpn
-nitrogen
 noto-fonts
 noto-fonts-emoji
 nvidia
 nvidia-settings
 nvidia-utils
 nvtop
+openssh
 openvpn
 optimus-manager
 os-prober
@@ -111,7 +105,6 @@ syncthing
 teams
 the_silver_searcher
 tldr
-tor-browser
 ttf-jetbrains-mono
 ttf-material-design-icons
 udiskie
@@ -121,12 +114,13 @@ usbutils
 vim
 virtualbox
 wget
-wpa_supplicant
 xbanish
 xclip
+xorg-server
 xorg-xinit
 xorg-xrandr
 xorg-xsetroot
+xsel
 xwinwrap-git
 yay
 yt-dlp

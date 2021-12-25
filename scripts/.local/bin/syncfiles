@@ -1,8 +1,10 @@
 #!/bin/sh
 
-rsync -avzL --delete --progress -e "ssh -i ~/.ssh/nc.pem" ~/Pictures/wallpapers/ ubuntu@3.109.155.170:/home/ubuntu/backup/wallpapers
-rsync -avzL --delete --progress -e "ssh -i ~/.ssh/nc.pem" ~/.config/zsh/.histfile ubuntu@3.109.155.170:/home/ubuntu/backup/zsh_history
-rsync -avzL --delete --progress -e "ssh -i ~/.ssh/nc.pem" ~/.local/share/fonts/ ubuntu@3.109.155.170:/home/ubuntu/backup/fonts
-rsync -avzL --delete --progress -e "ssh -i ~/.ssh/nc.pem" ~/Documents/surfshark/ ubuntu@3.109.155.170:/home/ubuntu/backup/surfshark
-rsync -avzL --delete --progress -e "ssh -i ~/.ssh/nc.pem" ~/Documents/books/ ubuntu@3.109.155.170:/home/ubuntu/backup/books
-rsync -avzL --delete --progress -e "ssh -i ~/.ssh/nc.pem" ~/Videos/wallpapers/ ubuntu@3.109.155.170:/home/ubuntu/backup/video_wallpapers
+rsync -avzL --delete --progress -e "ssh -i ~/.ssh/tcmrbi_aws.pem" ~/Pictures/wallpapers/ ubuntu@13.127.187.144:/home/ubuntu/backup/wallpapers
+rsync -avzL --delete --progress -e "ssh -i ~/.ssh/tcmrbi_aws.pem" ~/.config/zsh/.histfile ubuntu@13.127.187.144:/home/ubuntu/backup/zsh_history
+rsync -avzL --delete --progress -e "ssh -i ~/.ssh/tcmrbi_aws.pem" ~/.local/share/fonts/ ubuntu@13.127.187.144:/home/ubuntu/backup/fonts
+rsync -avzL --delete --progress -e "ssh -i ~/.ssh/tcmrbi_aws.pem" ~/Documents/surfshark/ ubuntu@13.127.187.144:/home/ubuntu/backup/surfshark
+rsync -avzL --delete --progress -e "ssh -i ~/.ssh/tcmrbi_aws.pem" ~/Documents/books/ ubuntu@13.127.187.144:/home/ubuntu/backup/books
+rsync -avzL --delete --progress -e "ssh -i ~/.ssh/tcmrbi_aws.pem" ~/Videos/wallpapers/ ubuntu@13.127.187.144:/home/ubuntu/backup/video_wallpapers
+rsync -avzL --delete --progress -e "ssh -i ~/.ssh/tcmrbi_aws.pem" ~/Videos/wallpapers/ ubuntu@13.127.187.144:/home/ubuntu/backup/video_wallpapers
+rsync -avzL --delete --progress -e "ssh -i ~/.ssh/tcmrbi_aws.pem" ~/Documents/backup/ ubuntu@13.127.187.144:/home/ubuntu/backup/scripts_backup

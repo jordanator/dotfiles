@@ -1,0 +1,9 @@
+#!/bin/bash
+
+curipline=$(head -n 1 ~/.curip)
+curip=$(curl -sS eth0.me)
+
+if [ "$curipline" != "$curip" ]; then
+	# echo "IP Changed"
+  notify-send -t 20000 "IP Changed" "Please change current IP"
+fi
