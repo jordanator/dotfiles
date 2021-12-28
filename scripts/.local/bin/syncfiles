@@ -6,5 +6,4 @@ rsync -avzL --delete --progress -e "ssh -i ~/.ssh/tcmrbi_aws.pem" ~/.local/share
 rsync -avzL --delete --progress -e "ssh -i ~/.ssh/tcmrbi_aws.pem" ~/Documents/surfshark/ ubuntu@13.127.187.144:/home/ubuntu/backup/surfshark
 rsync -avzL --delete --progress -e "ssh -i ~/.ssh/tcmrbi_aws.pem" ~/Documents/books/ ubuntu@13.127.187.144:/home/ubuntu/backup/books
 rsync -avzL --delete --progress -e "ssh -i ~/.ssh/tcmrbi_aws.pem" ~/Videos/wallpapers/ ubuntu@13.127.187.144:/home/ubuntu/backup/video_wallpapers
-rsync -avzL --delete --progress -e "ssh -i ~/.ssh/tcmrbi_aws.pem" ~/Videos/wallpapers/ ubuntu@13.127.187.144:/home/ubuntu/backup/video_wallpapers
 rsync -avzL --delete --progress -e "ssh -i ~/.ssh/tcmrbi_aws.pem" ~/Documents/backup/ ubuntu@13.127.187.144:/home/ubuntu/backup/scripts_backup

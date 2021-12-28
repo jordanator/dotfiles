@@ -53,6 +53,7 @@ compinit
 
 # Docker compose
 zsh_add_file "completions/docker-compose"
+zsh_add_file ".colored-man-pages.plugin"
 
 # Kubernetes
 zsh_add_file "completions/kube"
