@@ -20,7 +20,6 @@ dash
 dialog
 docker
 docker-compose
-docker-machine
 dosfstools
 duf
 dunst
@@ -40,7 +39,6 @@ git
 gnome-icon-theme
 gnome-icon-theme-extras
 grub
-hollywood
 htop
 imlib2
 intel-ucode
@@ -105,6 +103,7 @@ syncthing
 teams
 the_silver_searcher
 tldr
+tree-sitter
 ttf-jetbrains-mono
 ttf-material-design-icons
 udiskie
@@ -112,7 +111,6 @@ ueberzug
 unzip
 usbutils
 vim
-virtualbox
 wget
 xbanish
 xclip

@@ -32,7 +32,7 @@ xset r rate 210 40
 dunst &
 
 # Volume tray
-pasystray --notify=all &
+pasystray --notify=sink_default &
 
 # Hide Cursor when typing
 xbanish &
