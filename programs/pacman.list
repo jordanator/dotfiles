@@ -11,7 +11,6 @@ bluez
 bluez-utils
 brave-bin
 checkbashisms
-checkupdates+aur
 cmatrix
 copyq
 cronie
@@ -24,6 +23,7 @@ dosfstools
 duf
 dunst
 efibootmgr
+eslint
 exa
 fast
 fd
@@ -38,6 +38,7 @@ genact
 git
 gnome-icon-theme
 gnome-icon-theme-extras
+go
 grub
 htop
 imlib2
@@ -52,6 +53,7 @@ lightdm-webkit2-greeter
 lightdm-webkit2-theme-glorious
 linux
 linux-firmware
+man-db
 man-pages
 mongodb-compass
 mpv
@@ -80,6 +82,7 @@ pass-otp
 picom-ibhagwan-git
 plymouth
 plymouth-theme-arch-charge-big
+postman-bin
 prettier
 pulseaudio
 pulseaudio-alsa
@@ -94,6 +97,7 @@ screenkey
 shfmt
 simple-mtpfs
 sl
+slack-desktop
 spotify
 spotify-tray-git
 stow
@@ -111,6 +115,7 @@ ueberzug
 unzip
 usbutils
 vim
+virtualbox
 wget
 xbanish
 xclip
