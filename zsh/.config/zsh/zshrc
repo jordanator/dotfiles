@@ -66,3 +66,7 @@ eval "$(fnm env)"
 #eval "$(rbenv init -)"
 
 # source "$ZDOTDIR/plugins/powerlevel10k/powerlevel10k.zsh-theme"
+
+# if [ -x "$(command -v tmux)" ] && [ -n "${DISPLAY}" ]; then
+#   [ -z "${TMUX}" ] && { tmux attach || tmux; } >/dev/null 2>&1
+# fi

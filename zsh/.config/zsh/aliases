@@ -1,11 +1,9 @@
-# alias vz="vim ~/.zshrc"
-# alias sz="source ~/.zshrc"
 alias update="yay -Syu"
 alias hosts="sudo vim /etc/hosts"
 alias clip="xclip -sel clip"
 alias art="php artisan"
 alias weather="curl wttr.in/Hyderabad"
-alias autoremove="yay -Yc"
+alias autoremove="yay -Yc && sudo pacman -Sc"
 alias cmyip="curl eth0.me"
 alias monitors="xrandr -q | grep \" connected\" | cut -d ' ' -f1 | tr -d '\n'"
 

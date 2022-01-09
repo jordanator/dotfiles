@@ -15,7 +15,7 @@ blueman-applet &
 udiskie &
 
 # Starting compositor
-# picom -b
+picom -b
 
 # Stop screen from going blank
 xset s off
