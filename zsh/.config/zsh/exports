@@ -22,3 +22,4 @@ export LANGUAGE="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 
 export ZVM_VI_INSERT_ESCAPE_BINDKEY=jk
+export QT_QPA_PLATFORMTHEME=qt5ct

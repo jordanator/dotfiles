@@ -47,7 +47,7 @@ flameshot &
 # element-desktop &
 
 # Open CopyQ
-COPYQ_SESSION_COLOR=gray copyq &
+QT_QPA_PLATFORMTHEME=qt5ct COPYQ_SESSION_COLOR=gray copyq &
 
 # Wallpaper
 feh --bg-fill --randomize ~/Pictures/wallpapers/* &

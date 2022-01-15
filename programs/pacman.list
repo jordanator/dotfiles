@@ -86,14 +86,15 @@ pass-otp
 picom-ibhagwan-git
 plymouth
 plymouth-theme-arch-charge-big
-plymouth-theme-splash-git
 postman-bin
 prettier
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
 python-pip
+python-qt-material-git
 qbittorrent
+qt5ct
 ranger
 redshift
 rofi
@@ -105,6 +106,7 @@ sl
 slack-desktop
 spotify
 spotify-tray-git
+stern
 stow
 stylua
 sxiv
@@ -114,7 +116,6 @@ the_silver_searcher
 tldr
 tmux
 tree-sitter
-ttf-dejavu
 ttf-jetbrains-mono
 ttf-material-design-icons
 udiskie
