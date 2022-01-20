@@ -26,7 +26,7 @@ xset s noblank
 xset r rate 210 40
 
 # Faster key repeat and delay => external keyboard
-#xset r rate 150 20
+# xset r rate 150 20
 
 # Notification center
 dunst &

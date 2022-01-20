@@ -41,10 +41,12 @@ git
 gnome-icon-theme
 gnome-icon-theme-extras
 go
+google-cloud-sdk
 grub
 htop
 imlib2
 intel-ucode
+kubecolor
 lazygit
 libvdpau-va-gl
 libxft-bgra-git
@@ -77,6 +79,7 @@ nvidia-utils
 nvtop
 openssh
 openvpn
+opera
 optimus-manager
 os-prober
 pam-gnupg
@@ -130,6 +133,7 @@ xclip
 xf86-video-intel
 xorg-server
 xorg-util-macros
+xorg-xev
 xorg-xinit
 xorg-xrandr
 xorg-xsetroot
