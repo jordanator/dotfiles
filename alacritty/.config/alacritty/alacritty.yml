@@ -68,8 +68,6 @@ cursor:
   style:
     blinking: Never
 
-background_opacity: 1
-
 font:
   normal:
     family: "OperatorMonoLig"
@@ -97,6 +95,7 @@ font:
     y: 0
 
 window:
+  opacity: 1
   padding:
     x: 0
     y: 0
