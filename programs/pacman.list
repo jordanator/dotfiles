@@ -29,7 +29,6 @@ eslint
 exa
 fast
 fd
-feh
 firefox
 flameshot
 fnm-bin
@@ -40,10 +39,8 @@ genact
 git
 gnome-icon-theme
 gnome-icon-theme-extras
-gnome-keyring
 go
 gofumpt
-google-cloud-sdk
 grub
 gwenview
 htop
@@ -61,7 +58,6 @@ lightdm-webkit2-theme-glorious
 linux
 linux-firmware
 linux-headers
-lldb
 man-db
 man-pages
 mongodb-compass
@@ -83,7 +79,6 @@ nvidia
 nvidia-settings
 nvidia-utils
 nvtop
-openssh
 openvpn
 opera
 optimus-manager
@@ -121,6 +116,7 @@ stow
 stylua
 syncthing
 teams
+terminus-font
 the_silver_searcher
 tldr
 tmux
@@ -135,11 +131,10 @@ vagrant
 vim
 virtualbox
 wget
-xbanish
+wmctrl
 xclip
 xf86-video-intel
 xorg-server
-xorg-util-macros
 xorg-xev
 xorg-xinit
 xorg-xrandr
