@@ -1,3 +1,3 @@
 xmodmap ~/.Xmodmap
 
-exec ~/.dwm/autostart
+exec ~/.config/chadwm/scripts/./autostart

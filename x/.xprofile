@@ -90,6 +90,8 @@ videobg &
 # xrdb ~/.Xresources
 xrdb merge ~/.Xresources
 
+mullvad connect
+
 # Tools
 # carbon-now-cli -> code screenshots
 # terminalizer -> record terminal 
