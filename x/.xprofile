@@ -81,7 +81,7 @@ export ZDOTDIR=$HOME/.config/zsh
 startteams &
 
 # video wallpaper
-videobg &
+# videobg &
 
 # remap caps to escape
 # setxkbmap -option caps:escape
