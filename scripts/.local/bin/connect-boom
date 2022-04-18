@@ -1,0 +1,8 @@
+#!/bin/sh
+boom_mac="C0:28:8D:09:5B:43"
+boom_sink="bluez_sink.C0_28_8D_09_5B_43.a2dp_sink"
+
+rfkill unblock bluetooth
+bluetoothctl power on
+bluetoothctl connect $boom_mac
+pactl set-default-sink $boom_sink

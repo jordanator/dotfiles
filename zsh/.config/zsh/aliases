@@ -33,3 +33,6 @@ alias gb="git branch"
 alias gba="git branch -a"
 alias gbd="git branch -d"
 
+# Mullvad VPN
+alias mc="mullvad connect"
+alias mcd="mullvad disconnect"

@@ -1,4 +1,5 @@
 acpilight
+alacritty
 alsa-utils
 arc-gtk-theme
 at
@@ -13,11 +14,13 @@ bluez
 bluez-utils
 brave-bin
 cmatrix
+code
 composer
 copyq
 cronie
 ctop
 dash
+dbeaver
 discord
 docker
 docker-compose
@@ -39,10 +42,13 @@ genact
 git
 go
 gofumpt
+google-chrome
 grub
+heroku-cli-bin
 htop
 imlib2
 intel-ucode
+jq
 kubecolor
 lazygit
 libxft-bgra-git
@@ -79,6 +85,7 @@ pamixer
 papirus-icon-theme
 pass
 pass-otp
+pgcli
 php
 picom-ibhagwan-git
 plymouth
@@ -101,6 +108,8 @@ scrcpy
 screenkey
 shfmt
 sl
+spotify
+spotify-tray-git
 stow
 stylua
 syncthing
@@ -114,6 +123,7 @@ ttf-jetbrains-mono
 ttf-material-design-icons
 udiskie
 ueberzug
+unrar
 unzip
 usbutils
 vagrant
@@ -121,6 +131,7 @@ vim
 virtualbox
 vlc
 wget
+wluma
 wmctrl
 x11vnc
 xclip
@@ -130,6 +141,7 @@ xorg-xinit
 xorg-xrandr
 xorg-xsetroot
 xsel
+yarn
 yay
 yt-dlp
 ytfzf
