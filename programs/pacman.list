@@ -14,14 +14,12 @@ bluez
 bluez-utils
 brave-bin
 cmatrix
-code
 composer
 copyq
 cronie
 ctop
 dash
 dbeaver
-discord
 docker
 docker-compose
 duf
@@ -71,7 +69,6 @@ neofetch
 nerd-fonts-jetbrains-mono
 network-manager-applet
 networkmanager
-networkmanager-openvpn
 noto-fonts
 noto-fonts-emoji
 nvidia
@@ -79,7 +76,6 @@ nvidia-settings
 nvidia-utils
 nvtop
 openssh
-openvpn
 pam-gnupg
 pamixer
 papirus-icon-theme
@@ -100,8 +96,6 @@ qbittorrent
 qt5ct
 ranger
 redshift
-remmina
-remmina-plugin-rdesktop
 rofi
 rsync
 scrcpy
@@ -129,11 +123,7 @@ usbutils
 vagrant
 vim
 virtualbox
-vlc
 wget
-wluma
-wmctrl
-x11vnc
 xclip
 xorg-mkfontscale
 xorg-server
