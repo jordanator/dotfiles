@@ -56,7 +56,7 @@ feh --bg-fill --randomize ~/Pictures/wallpapers/* &
 redshift-gtk -l 17.4545951:78.5527655 &
 
 # Syncthing
-syncthing &
+syncthing --no-browser &
 
 # Spotify
 # spotify-tray &
@@ -90,7 +90,7 @@ startteams &
 # xrdb ~/.Xresources
 xrdb merge ~/.Xresources
 
-mullvad connect
+# mullvad connect
 
 # Tools
 # carbon-now-cli -> code screenshots

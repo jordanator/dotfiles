@@ -11,43 +11,80 @@ Xft.lcdfilter:	lcddefault
 st.alpha: 0.95
 
 ! inner padding
-st.borderpx:          4
+st.borderpx:          10
 st.font:         OperatorMonoLig:style:medium:pixelsize=18
 
 !! Colors
 
 !! Dracula  palette
-*.foreground: #F8F8F2
-*.background: #282A36
+! *.foreground: #F8F8F2
+! *.background: #282A36
+!
+! !! black + grey
+! *.color0:     #000000
+! *.color8:     #4D4D4D
+!
+! !! dark red + red
+! *.color1:     #FF5555
+! *.color9:     #FF6E67
+!
+! !! green
+! *.color2:     #50FA7B
+! *.color10:    #5AF78E
+!
+! !! yellow
+! *.color3:     #F1FA8C
+! *.color11:    #F4F99D
+!
+! !! purple
+! *.color4:     #BD93F9
+! *.color12:    #CAA9FA
+!
+! !! pink
+! *.color5:     #FF79C6
+! *.color13:    #FF92D0
+!
+! !! cyan
+! *.color6:     #8BE9FD
+! *.color14:    #9AEDFE
+!
+! !! white
+! *.color7:     #BFBFBF
+! *.color15:    #E6E6E6
 
-!! black + grey
-*.color0:     #000000
-*.color8:     #4D4D4D
 
-!! dark red + red
-*.color1:     #FF5555
-*.color9:     #FF6E67
+! Everblush theme
+*background: #181f21
+*foreground: #dadada
 
-!! green
-*.color2:     #50FA7B
-*.color10:    #5AF78E
+! Black + DarkGrey
+*color0:  #22292b
+*color8:  #575e60
 
-!! yellow
-*.color3:     #F1FA8C
-*.color11:    #F4F99D
+! DarkRed + Red
+*color1:  #e06e6e
+*color9:  #ef7d7d
 
-!! purple
-*.color4:     #BD93F9
-*.color12:    #CAA9FA
+! DarkGreen + Green
+*color2:  #8ccf7e
+*color10: #9bdead
 
-!! pink
-*.color5:     #FF79C6
-*.color13:    #FF92D0
+! DarkYellow + Yellow
+*color3:  #e5c76b
+*color11: #f4d67a
 
-!! cyan
-*.color6:     #8BE9FD
-*.color14:    #9AEDFE
+! DarkBlue + Blue
+*color4:  #67b0e8
+*color12: #6cb5ed
 
-!! white
-*.color7:     #BFBFBF
-*.color15:    #E6E6E6
+! DarkMagenta + Magenta
+*color5:  #c47fd5
+*color13: #ce89df
+
+! DarkCyan + Cyan
+*color6:  #6da4cd
+*color14: #67cbe7
+
+! LightGrey + White
+*color7:  #b3b9b8
+*color15: #bdc3c2
