@@ -56,6 +56,7 @@ lightdm-webkit2-greeter
 lightdm-webkit2-theme-glorious
 linux
 linux-firmware
+linux-headers
 man-db
 man-pages
 mongodb-compass
@@ -75,6 +76,7 @@ nvidia
 nvidia-settings
 nvidia-utils
 nvtop
+obsidian
 openssh
 pam-gnupg
 pamixer
@@ -82,7 +84,6 @@ papirus-icon-theme
 pass
 pass-otp
 pgcli
-php
 picom-ibhagwan-git
 plymouth
 plymouth-theme-arch-charge-big
@@ -102,8 +103,6 @@ scrcpy
 screenkey
 shfmt
 sl
-spotify
-spotify-tray-git
 stow
 stylua
 syncthing
@@ -115,10 +114,10 @@ tmux
 tree-sitter
 ttf-jetbrains-mono
 ttf-material-design-icons
+typescript
 udiskie
 ueberzug
 unrar
-unzip
 usbutils
 vagrant
 vim
