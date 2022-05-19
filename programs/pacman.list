@@ -3,9 +3,7 @@ alacritty
 alsa-utils
 arc-gtk-theme
 at
-atool-git
-aws-cli
-aws-session-manager-plugin
+atool
 base
 bat
 betterlockscreen
@@ -14,7 +12,6 @@ bluez
 bluez-utils
 brave-bin
 cmatrix
-composer
 copyq
 cronie
 ctop
@@ -26,7 +23,6 @@ duf
 dunst
 efibootmgr
 envycontrol
-eslint
 exa
 fast
 fd
@@ -38,11 +34,11 @@ freerdp
 fzf
 genact
 git
+git-delta
 go
 gofumpt
 google-chrome
 grub
-heroku-cli-bin
 htop
 imlib2
 intel-ucode
@@ -70,6 +66,7 @@ neofetch
 nerd-fonts-jetbrains-mono
 network-manager-applet
 networkmanager
+networkmanager-openvpn
 noto-fonts
 noto-fonts-emoji
 nvidia
@@ -105,6 +102,7 @@ shfmt
 sl
 stow
 stylua
+sxiv
 syncthing
 teams
 terminus-font
@@ -118,6 +116,7 @@ typescript
 udiskie
 ueberzug
 unrar
+unzip
 usbutils
 vagrant
 vim
