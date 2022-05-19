@@ -25,3 +25,8 @@ function armageddon() {
     docker volume rm $(docker volume ls --filter dangling=true -q)
     docker rmi -f $(docker images -qa)
 }
+
+function take() {
+  mkdir -p $1
+  cd $1
+}
