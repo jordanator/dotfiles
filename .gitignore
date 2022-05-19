@@ -20,4 +20,5 @@ scripts/.local/bin/pip3.10
 scripts/.local/include/
 scripts/.local/lib/
 scripts/.local/share/
+scripts/.local/state/
 scripts/.local/src/
