@@ -95,3 +95,5 @@ xrdb merge ~/.Xresources
 # Tools
 # carbon-now-cli -> code screenshots
 # terminalizer -> record terminal 
+
+mpv --no-video ~/Documents/startup_win.m4a
