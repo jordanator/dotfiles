@@ -22,3 +22,4 @@ scripts/.local/lib/
 scripts/.local/share/
 scripts/.local/state/
 scripts/.local/src/
+scripts/.local/bin/virtualenv

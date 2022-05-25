@@ -1,9 +1,12 @@
 acpilight
 alacritty
 alsa-utils
+appmenu-gtk-module
 arc-gtk-theme
 at
 atool
+aws-cli
+aws-session-manager-plugin
 base
 bat
 betterlockscreen
@@ -11,7 +14,9 @@ blueman
 bluez
 bluez-utils
 brave-bin
+clang
 cmatrix
+composer
 copyq
 cronie
 ctop
@@ -45,6 +50,7 @@ intel-ucode
 jq
 kubecolor
 lazygit
+libvips
 libxft-bgra-git
 lightdm
 lightdm-gtk-greeter
@@ -81,9 +87,11 @@ papirus-icon-theme
 pass
 pass-otp
 pgcli
+php
 picom-ibhagwan-git
 plymouth
 plymouth-theme-arch-charge-big
+pnpm
 postman-bin
 prettier
 pulseaudio
@@ -96,6 +104,7 @@ ranger
 redshift
 rofi
 rsync
+rustdesk-bin
 scrcpy
 screenkey
 shfmt
