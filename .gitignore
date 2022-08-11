@@ -1,6 +1,6 @@
 zsh/.config/zsh/.histfile
 zsh/.config/zsh/plugins/
-zsh/.config/zsh/.zcompdump
+zsh/.config/zsh/.zcompdump*
 
 copyq/.config/copyq/*.dat
 copyq/.config/copyq/copyq.lock
@@ -16,6 +16,7 @@ ranger/.config/ranger/plugins/ranger_devicons_back/__pycache__/
 
 scripts/.local/bin/.msi-rgb
 scripts/.local/bin/pip3.10
+scripts/.local/bin/rust-analyzer
 
 scripts/.local/include/
 scripts/.local/lib/
