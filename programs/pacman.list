@@ -29,7 +29,6 @@ dunst
 efibootmgr
 envycontrol
 exa
-fast
 fd
 firefox
 flameshot
@@ -48,7 +47,7 @@ htop
 imlib2
 intel-ucode
 jq
-kubecolor
+kubectl
 lazygit
 libvips
 libxft-bgra-git
@@ -59,6 +58,7 @@ lightdm-webkit2-theme-glorious
 linux
 linux-firmware
 linux-headers
+luarocks
 man-db
 man-pages
 mongodb-compass
@@ -69,10 +69,12 @@ mullvad-vpn-bin
 mysql-workbench
 ncdu
 neofetch
+neovide
 nerd-fonts-jetbrains-mono
 network-manager-applet
 networkmanager
 networkmanager-openvpn
+ngrok
 noto-fonts
 noto-fonts-emoji
 nvidia
@@ -87,11 +89,9 @@ papirus-icon-theme
 pass
 pass-otp
 pgcli
-php
 picom-ibhagwan-git
 plymouth
 plymouth-theme-arch-charge-big
-pnpm
 postman-bin
 prettier
 pulseaudio
@@ -107,8 +107,11 @@ rsync
 rustdesk-bin
 scrcpy
 screenkey
+shellcheck
 shfmt
 sl
+spotify
+spotify-tray-git
 stow
 stylua
 sxiv
@@ -119,6 +122,7 @@ the_silver_searcher
 tldr
 tmux
 tree-sitter
+tt
 ttf-jetbrains-mono
 ttf-material-design-icons
 typescript
