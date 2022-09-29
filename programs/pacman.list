@@ -24,11 +24,14 @@ dash
 dbeaver
 docker
 docker-compose
+downgrade
 duf
 dunst
 efibootmgr
 envycontrol
+etcher-bin
 exa
+fast
 fd
 firefox
 flameshot
@@ -62,6 +65,7 @@ luarocks
 man-db
 man-pages
 mongodb-compass
+mongosh-bin
 mpv
 msi-perkeyrgb
 mugshot
@@ -89,6 +93,8 @@ papirus-icon-theme
 pass
 pass-otp
 pgcli
+php-gd
+php-mongodb
 picom-ibhagwan-git
 plymouth
 plymouth-theme-arch-charge-big
@@ -120,6 +126,8 @@ teams
 terminus-font
 the_silver_searcher
 tldr
+tlp
+tlpui
 tmux
 tree-sitter
 tt
