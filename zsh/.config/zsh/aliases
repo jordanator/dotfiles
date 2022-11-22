@@ -6,6 +6,7 @@ alias weather="curl wttr.in/Hyderabad"
 alias autoremove="yay -Yc && sudo pacman -Sc"
 alias cmyip="curl eth0.me"
 alias monitors="xrandr -q | grep \" connected\" | cut -d ' ' -f1 | tr -d '\n'"
+alias zsh-update-plugins="find "$ZDOTDIR/plugins" -type d -exec test -e '{}/.git' ';' -print0 | xargs -I {} -0 git -C {} pull -q"
 
 alias ta="tmux attach || tmux"
 alias nm="neomutt"
@@ -36,3 +37,7 @@ alias gbd="git branch -d"
 # Mullvad VPN
 alias mc="mullvad connect"
 alias mcd="mullvad disconnect"
+
+# Youtube-dl
+alias ytF="yt-dlp -F"
+alias ytf="yt-dlp -f"

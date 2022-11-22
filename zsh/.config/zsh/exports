@@ -1,12 +1,12 @@
 # export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=6"
 # export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=cyan,bold,underline"
-export EDITOR=nvim export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib export PATH="/home/lalith/.yarn/bin:$PATH"
+export EDITOR=lvim export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib export PATH="/home/lalith/.yarn/bin:$PATH"
 export PATH="/home/lalith/.local/bin:$PATH"
 export PATH=$PATH:/usr/local/go/bin
 export PATH="/home/lalith/.local/bin/dwmscripts:$PATH"
 export GOPATH="/home/lalith/go"
 export MYVIMRC="~/.config/nvim/init.vim"
-export VISUAL=nvim
+export VISUAL=lvim
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 export ANDROID_SDK_ROOT="$HOME/Android/Sdk"
 export PATH=$HOME/.config/nvim/utils/bin:$PATH
