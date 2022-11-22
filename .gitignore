@@ -13,6 +13,7 @@ ranger/.config/ranger/plugins/ranger_devicons_back/__pycache__/__init__.cpython-
 ranger/.config/ranger/__pycache__/commands.cpython-39.opt-1.pyc
 ranger/.config/ranger/plugins/__pycache__/__init__.cpython-310.opt-1.pyc
 ranger/.config/ranger/plugins/ranger_devicons_back/__pycache__/
+ranger/.config/ranger/speedcc.fit
 
 scripts/.local/bin/.msi-rgb
 scripts/.local/bin/pip3.10
@@ -24,3 +25,6 @@ scripts/.local/share/
 scripts/.local/state/
 scripts/.local/src/
 scripts/.local/bin/virtualenv
+scripts/.local/bin/lvim
+
+lazygit/.config/lazygit/state.yml
