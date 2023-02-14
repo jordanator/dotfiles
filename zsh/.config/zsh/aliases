@@ -2,6 +2,7 @@ alias update="yay -Syu"
 alias hosts="sudo vim /etc/hosts"
 alias clip="xclip -sel clip"
 alias art="php artisan"
+alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 alias weather="curl wttr.in/Hyderabad"
 alias autoremove="yay -Yc && sudo pacman -Sc"
 alias cmyip="curl eth0.me"
@@ -39,3 +40,5 @@ alias mcd="mullvad disconnect"
 # Youtube-dl
 alias ytF="yt-dlp -F"
 alias ytf="yt-dlp -f"
+
+alias v="fd --type f --no-hidden --exclude target --exclude node_modules --exclude vendor | fzf-tmux -p --reverse | xargs --no-run-if-empty lvim"

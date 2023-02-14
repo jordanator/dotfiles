@@ -69,6 +69,7 @@ compinit
 
 eval "$(fnm env)"
 # eval "$(rbenv init -)"
+eval "$(mcfly init zsh)"
 
 # source "$ZDOTDIR/plugins/powerlevel10k/powerlevel10k.zsh-theme"
 

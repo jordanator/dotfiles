@@ -15,7 +15,8 @@ blueman-applet &
 udiskie &
 
 # Starting compositor
-picom -b
+# picom -b -no-fading-openclose
+picom -b --animations
 
 # Stop screen from going blank
 xset s off
@@ -56,7 +57,7 @@ feh --bg-fill --randomize ~/Pictures/wallpapers/* &
 redshift-gtk -l 17.4545951:78.5527655 &
 
 # Syncthing
-syncthing --no-browser &
+# syncthing --no-browser &
 
 # Spotify
 # spotify-tray &
@@ -65,7 +66,7 @@ export LANG=en_US.UTF-8
 
 export EDITOR="lvim"
 export TERMINAL="st"
-export BROWSER="brave"
+export BROWSER="google-chrome-stable"
 
 export PATH=$PATH:~/.local/bin
 
