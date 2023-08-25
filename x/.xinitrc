@@ -1,3 +1,3 @@
 xmodmap ~/.Xmodmap
 
-exec ~/.config/chadwm/scripts/./autostart
+exec /home/lalith/.config/chadwm/scripts/autostart
