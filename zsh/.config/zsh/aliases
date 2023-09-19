@@ -41,4 +41,4 @@ alias mcd="mullvad disconnect"
 alias ytF="yt-dlp -F"
 alias ytf="yt-dlp -f"
 
-alias v="fd --type f --no-hidden --exclude target --exclude node_modules --exclude vendor | fzf-tmux -p --reverse | xargs --no-run-if-empty lvim"
+alias v="fd --type f --no-hidden --exclude target --exclude node_modules --exclude vendor | fzf-tmux -p --reverse | xargs --no-run-if-empty nvim"
