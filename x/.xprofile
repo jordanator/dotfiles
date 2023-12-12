@@ -57,7 +57,7 @@ syncthing --no-browser &
 
 export LANG=en_US.UTF-8
 
-export EDITOR="lvim"
+export EDITOR="nvim"
 export TERMINAL="st"
 export BROWSER="google-chrome-stable"
 
@@ -71,12 +71,12 @@ export XDG_DATA_HOME=$HOME/.local/share
 # zsh config dir
 export ZDOTDIR=$HOME/.config/zsh
 
-teams &
+# teams &
 # startteams &
 # webex &
 
 # discord
-# discord &
+discord &
 
 # video wallpaper
 # videobg &

@@ -17,6 +17,7 @@ alias k="kubectl"
 alias f="ag -g '' | fzf --cycle | xargs -r $EDITOR"
 alias y="yay -Slq | fzf -m --preview 'cat <(yay -Si {1}) <(yay -Fl {1} | awk \"{print \$2}\")' | xargs -ro  yay -S"
 alias l="ll"
+alias vim="nvim"
 
 # Git aliases
 alias gst="git status"
