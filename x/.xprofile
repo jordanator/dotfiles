@@ -75,9 +75,6 @@ export ZDOTDIR=$HOME/.config/zsh
 # startteams &
 # webex &
 
-# discord
-discord &
-
 # video wallpaper
 # videobg &
 
@@ -88,10 +85,20 @@ discord &
 # xrdb ~/.Xresources
 xrdb merge ~/.Xresources
 
-# mullvad connect
+mullvad connect
+notify-send -t 5000 -u low "Mullvad" "$(mullvad status)"
 
 # Tools
 # carbon-now-cli -> code screenshots
 # terminalizer -> record terminal 
 
 # mpv --no-video ~/Documents/startup_win.m4a &
+
+# discord
+discord &
+
+# megasync
+# megasync &
+
+# tutanota
+# tutanota-desktop &

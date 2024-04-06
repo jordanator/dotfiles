@@ -4,7 +4,7 @@ export MCFLY_KEY_SCHEME=vim
 export MCFLY_FUZZY=2
 
 # export EDITOR=lvim export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib export PATH="/home/lalith/.yarn/bin:$PATH"
-export EDITOR=nvim
+export EDITOR=lvim
 export PATH="/home/lalith/.local/bin:$PATH"
 export PATH=$PATH:/usr/local/go/bin
 export PATH="/home/lalith/.local/bin/dwmscripts:$PATH"
