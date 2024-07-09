@@ -88,17 +88,13 @@ xrdb merge ~/.Xresources
 mullvad connect
 notify-send -t 5000 -u low "Mullvad" "$(mullvad status)"
 
-# Tools
-# carbon-now-cli -> code screenshots
-# terminalizer -> record terminal 
-
-# mpv --no-video ~/Documents/startup_win.m4a &
+mpv --no-video ~/Documents/startup_win.m4a &
 
 # discord
-discord &
+# discord &
 
 # megasync
-# megasync &
+megasync &
 
 # tutanota
 # tutanota-desktop &
