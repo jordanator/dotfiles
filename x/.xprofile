@@ -5,7 +5,7 @@ nm-applet --indicator &
 blueman-applet &
 
 # Auto mount external devices
-udiskie &
+# udiskie &
 
 # Starting compositor
 picom -b -no-fading-openclose
@@ -88,13 +88,13 @@ xrdb merge ~/.Xresources
 mullvad connect
 notify-send -t 5000 -u low "Mullvad" "$(mullvad status)"
 
-mpv --no-video ~/Documents/startup_win.m4a &
+# mpv --no-video ~/Documents/startup_win.m4a &
 
 # discord
 # discord &
 
 # megasync
-megasync &
+# megasync &
 
 # tutanota
 # tutanota-desktop &
