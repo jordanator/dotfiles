@@ -16,8 +16,10 @@ alias lg="lazygit"
 alias k="kubectl"
 alias f="ag -g '' | fzf --cycle | xargs -r $EDITOR"
 alias y="yay -Slq | fzf -m --preview 'cat <(yay -Si {1}) <(yay -Fl {1} | awk \"{print \$2}\")' | xargs -ro  yay -S"
+alias yF="yt-dlp -F"
+alias yf="yt-dlp -f"
 alias l="ll"
-alias vim="nvim"
+#alias vim="nvim"
 alias n="neofetch"
 
 # Git aliases
@@ -43,7 +45,9 @@ alias mcd="mullvad disconnect"
 alias ytF="yt-dlp -F"
 alias ytf="yt-dlp -f"
 
-alias v="fd --type f --no-hidden --exclude target --exclude node_modules --exclude vendor | fzf-tmux -p --reverse | xargs --no-run-if-empty lvim"
+alias v="fd --type f --no-hidden --exclude target --exclude node_modules --exclude vendor | fzf-tmux -p --reverse | xargs --no-run-if-empty nvim"
 
 # Vim
-alias vim="lvim"
+#alias vim="nvim"
+alias lvim="nvim"
+
