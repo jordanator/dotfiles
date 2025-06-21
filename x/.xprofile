@@ -85,10 +85,10 @@ export ZDOTDIR=$HOME/.config/zsh
 # xrdb ~/.Xresources
 xrdb merge ~/.Xresources
 
-mullvad connect
-notify-send -t 5000 -u low "Mullvad" "$(mullvad status)"
+# starup sound
+mpv --no-video ~/Documents/startup_win.m4a &
 
-# mpv --no-video ~/Documents/startup_win.m4a &
+sleep 5
 
 # discord
 # discord &
@@ -98,3 +98,8 @@ notify-send -t 5000 -u low "Mullvad" "$(mullvad status)"
 
 # tutanota
 # tutanota-desktop &
+
+~/.local/bin/autostart-display &
+~/.local/bin/autostart-mullvad &
+
+light -S 0

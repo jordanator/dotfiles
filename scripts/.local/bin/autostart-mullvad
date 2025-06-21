@@ -1,0 +1,4 @@
+mullvad connect
+sleep 2
+notify-send -t 5000 -u low "Mullvad" "$(mullvad status)"
+

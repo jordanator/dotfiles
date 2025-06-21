@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Use rofi instead of dmenu for better paste support
+URL=$(rofi -dmenu -p "Enter Youtube URL for mpv:" -theme-str 'window {width: 50%;}' )
+
+if [ -n "$URL" ]; then
+    # mpv --ytdl-raw-options="cookies=/home/lalith/Videos/www.youtube.com_cookies.txt" "$URL"
+    mpv --ytdl-raw-options="cookies-from-browser=chrome" "$URL"
+fi
