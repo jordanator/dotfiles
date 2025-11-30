@@ -51,3 +51,11 @@ alias v="fd --type f --no-hidden --exclude target --exclude node_modules --exclu
 #alias vim="nvim"
 alias lvim="nvim"
 
+# Ollama
+alias ollama='docker exec -it ollama ollama'
+alias ollama-logs='docker logs -f ollama'
+alias ollama-gpu='docker exec -it ollama nvidia-smi'
+alias ollama-restart='docker restart ollama'
+alias ollama-update='docker pull ollama/ollama && docker restart ollama'
+
+alias bl="betterlockscreen -l dimblur"
